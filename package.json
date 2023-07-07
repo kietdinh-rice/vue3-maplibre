@@ -1,0 +1,61 @@
+{
+  "name": "vue-template-maplibre-gl-js",
+  "description": "Maptiler MapLibre testing",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dist": "vue-cli-service build --mode dist"
+  },
+  "keywords": [
+    "vue",
+    "vue.js",
+    "template",
+    "map",
+    "maplibre",
+    "maplibre-gl-js"
+  ],
+  "author": "MapTiler Team <info@maptiler.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maptiler/vue-template-maplibre-gl-js/issues"
+  },
+  "homepage": "https://github.com/maptiler/vue-template-maplibre-gl-js#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "json-loader": "^0.5.7",
+    "maplibre-gl": "^2.0.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "gh-pages": "^3.2.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
